@@ -15,6 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Leon Bowen-Biggs
 email: leo.bowen.biggs@gmail.com
+author: Leon Bowen-Biggs
+pronouns: they/them/theirs
 description: > # this means to ignore newlines until "baseurl:"
   I'm a software developer based out of Portland. I'm a part-time student at
   Worcester Polytechnic Institute in Massachusetts. I also like data, gender
