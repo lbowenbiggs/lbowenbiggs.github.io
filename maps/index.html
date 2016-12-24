@@ -1,0 +1,24 @@
+---
+layout: default
+title: Maps
+category: maps
+---
+
+<h1>Licence</h1>
+<p>Creative Commons licence, what that means &amp; link</p>
+
+<h1>Maps by Date</h1>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+{% for post in site.posts %}
+  {% if post.categories contains 'single-map' %}
+	<div class="post">
+		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		<p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+		<div class="entry">
+			<img src="{{ site.url }}/assets/maps/{{ post.thumbnail }}" alt="{{page.alt-text}}">
+      <p>{{post.description}}</p>
+		</div>
+	</div>
+  {% endif %}
+{% endfor %}
