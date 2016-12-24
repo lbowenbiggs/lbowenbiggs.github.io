@@ -10,12 +10,12 @@ Follow [this tutorial by Sverrir Sigmundarson](https://labs.sverrirs.com/jekyll/
 ## 2. Initialize
 Follow the [Jekyll Quck-start guide](https://jekyllrb.com/docs/quickstart/). This creates the file structure needed for the site. Then git init and push as per [the github guide](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/).
 
-# Setting up development
+## Setting up development
 If you want to test the site locally, install Ruby and Jekyll (see above), then run:
 
 ```
 $ bundle exec jekyll serve
 ```
 
-# See Also
+## See Also
 [Jekyll Structure Documentation](https://jekyllrb.com/docs/structure/)
