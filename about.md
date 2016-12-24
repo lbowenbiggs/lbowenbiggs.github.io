@@ -10,7 +10,7 @@ permalink: /about/
 I started building and programming robots in high school.
 At first it was jut a fun thing to do after class, but pretty soon I was teaching programming across Oregon and thinking about college.
 So, I applied to Worcester Polytechnic Institute.
-It hasn't been the most straightforward of college experiences, but I've learned a lot.
+It hasn't been the most traditional of college experiences, but I've learned a lot.
 
 My sophomore year, I came out as transgender.
 There's a lot of fascinating books and articles to read, both from historical and contemporary positions.
