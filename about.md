@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # Leon Bowen-Biggs
-![Picture of Leo]({{ site.url }}/assets/face-square.jpg)
+![Picture of Leo]({{ site.url }}/assets/about_photo.jpg)
 
 I started building and programming robots in high school.
 At first it was jut a fun thing to do after class, but pretty soon I was teaching programming across Oregon and thinking about college.
