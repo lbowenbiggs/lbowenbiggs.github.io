@@ -23,11 +23,13 @@ Estoy aprendiendo español desde enero 2016.
 No soy bilingüe (todavía), pero viajaré a Panamá el proximo diciembre.
 Cuando voy, no queiro a parecer tonto.
 
+<!--
 # Licenses, etc
 All maps and world building material is creative commons {{ @TODO }}, unless otherwise noted.
 All blog posts are {{ @TODO }}.
 Project licenses are as noted with the project.
 Generally, most are {{ @TODO }}, unless they are an academic project that cannot release the source.
+-->
 
 # Credits
 This site uses Jekyll (Find out more at [jekyllrb.com](http://jekyllrb.com/)) and is hosted with [Github Pages](https://pages.github.com/).
