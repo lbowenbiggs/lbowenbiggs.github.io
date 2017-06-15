@@ -7,21 +7,12 @@ permalink: /about/
 # Leon Bowen-Biggs
 ![Picture of Leo]({{ site.url }}/assets/about_photo.jpg)
 
-I started building and programming robots in high school.
-At first it was jut a fun thing to do after class, but pretty soon I was teaching programming across Oregon and thinking about college.
-So, I applied to Worcester Polytechnic Institute.
-It hasn't been the most traditional of college experiences, but I've learned a lot.
+I'm a software developer based out of Portland, and a part-time student at Worcester Polytechnic Institute in Massachusetts.
+I also like data, gender theory, worldbuilding, and robotics.
 
-My sophomore year, I came out as transgender.
-There's a lot of fascinating books and articles to read, both from historical and contemporary positions.
-I am very interested in how technology shapes our experience of gender.
+I got into technology through FIRST Robotics in high school, and have worked with LEGO Mindstorms, Arduino-based robots, turtlebots, and a Willow Garage PR2. I have taught classes in robotics programming to hundreds of Oregonians since 2010. I am also interested in challenges robots pose to current infrastructure and social norms.
 
-My brothers and I started playing Dungeons and Dragons when I was a kid, and though I haven't been in a consistent game for a while, I am constantly thinking about fantasy worlds and historical world development.
-I also hand-draw maps.
-
-Estoy aprendiendo español desde enero 2016.
-No soy bilingüe (todavía), pero viajaré a Panamá el proximo diciembre.
-Cuando voy, no queiro a parecer tonto.
+I am also an amateur artist, and occasionally create maps for my worldbuilding projects.
 
 <!--
 # Licenses, etc

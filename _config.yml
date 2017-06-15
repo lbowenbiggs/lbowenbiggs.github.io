@@ -20,7 +20,7 @@ pronouns: they/them/theirs
 description: > # this means to ignore newlines until "baseurl:"
   I'm a software developer based out of Portland. I'm a part-time student at
   Worcester Polytechnic Institute in Massachusetts. I also like data, gender
-  theory, worldbuilding, and natural language.
+  theory, worldbuilding, and robotics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
