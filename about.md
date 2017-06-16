@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # Leon Bowen-Biggs
-![Picture of Leo]({{ site.url }}/assets/about_photo.jpg)
+![Picture of Leon]({{ site.url }}/assets/about_photo.jpg)
 
 I'm a software developer based out of Portland, and a part-time student at Worcester Polytechnic Institute in Massachusetts.
 I also like data, gender theory, worldbuilding, and robotics.
