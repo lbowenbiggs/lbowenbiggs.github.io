@@ -5,7 +5,7 @@ date:   2017-01-08
 categories: projects showcase
 ---
 
-I worked in the New Devices group at Intel developing firmware for demonstratoins on the Curie module.
+I worked in the New Devices group at Intel developing firmware for demonstrations on the Curie module.
 I also supported the Sports IQ Demos at CES 2017.
 
 ![Intel CEO BK holding a basketball at CES 2017, preparing to be a prop in a stunt dunk]({{ site.url }}/assets/intel_ces2017.jpg)
