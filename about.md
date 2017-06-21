@@ -7,10 +7,16 @@ permalink: /about/
 # Leon Bowen-Biggs
 ![Picture of Leon]({{ site.url }}/assets/about_photo.jpg)
 
-I'm a software developer based out of Portland, and a part-time student at Worcester Polytechnic Institute in Massachusetts.
-I also like data, gender theory, worldbuilding, and robotics.
+I am a software developer based out of Portland. I am also a part-time student at Worcester Polytechnic Institute in Massachusetts. My interests include data, gender theory, worldbuliding, and robotics.
 
-I got into technology through FIRST Robotics in high school, and have worked with LEGO Mindstorms, Arduino-based robots, turtlebots, and a Willow Garage PR2. I have taught classes in robotics programming to hundreds of Oregonians since 2010. I am also interested in challenges robots pose to current infrastructure and social norms.
+I got into technology through FIRST Robotics in high school.  I have taught classes in robotics programming to hundreds of Oregonians since 2010. Some of the robots I have worked with are:
+
+* LEGO Mindstorms
+* Arduino-based robotics
+* Turtlebots
+* Willow Garage PR2
+
+I am also interested in the challenges robots pose to current infrastructure and social norms.
 
 I am also an amateur artist, and occasionally create maps for my worldbuilding projects.
 
