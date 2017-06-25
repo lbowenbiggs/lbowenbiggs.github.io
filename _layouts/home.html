@@ -51,7 +51,8 @@ layout: default
           <div {% if forloop.index == 3 %}
                 class="col col-3 last"
                 {% else %}
-                class="col col-3">
+                class="col col-3"
+                {% endif %}>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
