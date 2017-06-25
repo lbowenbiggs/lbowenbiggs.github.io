@@ -58,7 +58,9 @@ layout: default
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
             <a class="post-link" href="{{ post.url | relative_url }}">
-              <img src="{{site.url}}/assets/maps/thumbs/{{post.thumbnail}}">
+              <img class="map-thumb"
+                   alt={{post.alt-text}}
+                   src="{{site.url}}/assets/maps/thumbs/{{post.thumbnail}}">
             </a>
           </div>
         {% endfor %}
