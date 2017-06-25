@@ -49,9 +49,9 @@ layout: default
       <ul class="post-list col-wrapper group">
         {% for post in site.categories.single-map limit:3 %}
           <div {% if forloop.index == 3 %}
-                class="col col-3 last"
+                class="col-3 last"
                 {% else %}
-                class="col col-3"
+                class="col-3"
                 {% endif %}>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
