@@ -43,14 +43,17 @@
 
 /* GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 480px) {
+  .col-3,
   .col {
     margin: 1% 0 1% 0%;
   }
 }
 
-@media only screen and (max-width: 200px) {
-  .col-1-of-2, .col-2-of-2 {
+@media only screen and (max-width: 480px) {
+  .col-3,
+  .col-1-of-2,
+  .col-2-of-2 {
     width: 100%;
   }
 }
