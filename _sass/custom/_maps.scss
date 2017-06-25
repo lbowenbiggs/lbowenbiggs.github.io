@@ -37,15 +37,15 @@
 .col-2-of-3 { width: 66.13%; }
 .col-1-of-3 { width: 32.26%; }
 
-/* GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/* GO FULL WIDTH AT LESS THAN 400 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
   .col {
     margin: 1% 0 1% 0%;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
   .col-1-of-2, .col-2-of-2 {
     width: 100%;
   }
