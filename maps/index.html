@@ -8,16 +8,25 @@ category: maps
 <p>Creative Commons licence, what that means &amp; link</p>
 
 <h1>Maps by Date</h1>
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<p class="rss-subscribe">
+  subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+</p>
 
 {% for post in site.posts %}
   {% if post.categories contains 'single-map' %}
 	<div class="post">
 		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-		<div class="entry">
-			<img src="{{ site.url }}/assets/maps/thumbs/{{ post.thumbnail }}" alt="{{page.alt-text}}">
-      <p>{{post.description}}</p>
+		<div class="entry section group">
+      <div class="map-col map-col-1">
+			     <a href="{{ post.url }}">
+             <img src="{{ site.url }}/assets/maps/thumbs/{{ post.thumbnail }}"
+                  alt="{{page.alt-text}}">
+            </a>
+      </div>
+      <div class="map-col map-col-2">
+        <p>{{post.description}}</p>
+      </div>
 		</div>
 	</div>
   {% endif %}
