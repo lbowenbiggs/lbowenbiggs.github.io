@@ -48,7 +48,7 @@ layout: default
 
       <ul class="post-list col-wrapper group">
         {% for post in site.categories.single-map limit:3 %}
-          <div class="col col-"{{ forloop.index }}"-of-3">
+          <div class="col col-{{ forloop.index }}-of-3">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
