@@ -28,14 +28,18 @@
   zoom: 1; /* For IE 6/7 */
 }
 
-/* Two Columns */
+/* Two Columns (for maps page) */
 .col-2-of-2 { width: 49.2%; }
 .col-1-of-2 { width: 49.2%; }
 
-/* Three Columns */
-.col-3-of-3 { width: 100%; }
-.col-2-of-3 { width: 66.13%; }
-.col-1-of-3 { width: 32.26%; }
+/* Three Columns (for homepage) */
+.col-3 {
+  float: left;
+  width: 30.8%;
+  margin-right: 3.8%;
+}
+
+.last { margin-right: 0; }
 
 /* GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
