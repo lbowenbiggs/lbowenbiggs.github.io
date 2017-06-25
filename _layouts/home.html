@@ -52,12 +52,14 @@ layout: default
                 class="col-3 last"
                 {% else %}
                 class="col-3"
-                {% endif %}>
+                {% endif %}>l
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
-            <img src="{{site.url}}/assets/maps/thumbs/{{post.thumbnail}}">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              <img src="{{site.url}}/assets/maps/thumbs/{{post.thumbnail}}">
+            </a>
           </div>
         {% endfor %}
       </ul>
