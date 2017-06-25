@@ -46,15 +46,15 @@ layout: default
     <div class="maps-summary">
       <h1 class="page-heading">Recent Maps</h1>
 
-      <ul class="post-list">
+      <ul class="post-list col-wrapper group">
         {% for post in site.categories.single-map limit:3 %}
-          <li>
+          <div class="col col-"{{ forloop.index }}"-of-3">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
             <img src="{{site.url}}/assets/maps/thumbs/{{post.thumbnail}}">
-          </li>
+          </div>
         {% endfor %}
       </ul>
     </div>
