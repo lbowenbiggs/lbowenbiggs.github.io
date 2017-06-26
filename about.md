@@ -23,7 +23,7 @@ I am also an amateur artist, and occasionally create maps for my worldbuilding p
 # Licenses, etc
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
-Except where otherwise noted, all maps, world building material, and blog posts are under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+Except where otherwise noted, all maps, world building material, and blog posts are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 My projects have various licenses. See the individual project page for information.
 
