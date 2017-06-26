@@ -8,8 +8,8 @@ layout: default
     <!-- This is where updates or global site notices should go. Edit them in index.md -->
     {{ content }}
 
-    <div class="projects-summary">
-      <h1 class="page-heading">Project Showcase</h1>
+    <div class="section projects-summary">
+      <h1 class="page-heading section-summary-heading">Project Showcase</h1>
 
       <ul class="post-list">
         {% for post in site.categories.showcase %}
@@ -28,8 +28,8 @@ layout: default
 
     </div>
 
-    <div class="blog-summary">
-      <h1 class="page-heading">Recent Posts</h1>
+    <div class="section blog-summary">
+      <h1 class="page-heading section-summary-heading">Recent Posts</h1>
 
       <ul class="post-list">
         {% for post in site.categories.blog limit:3 %}
@@ -46,8 +46,8 @@ layout: default
 
     </div>
 
-    <div class="maps-summary">
-      <h1 class="page-heading">Recent Maps</h1>
+    <div class="section maps-summary">
+      <h1 class="page-heading section-summary-heading">Recent Maps</h1>
 
       <ul class="post-list col-wrapper group">
         {% for post in site.categories.single-map limit:3 %}
