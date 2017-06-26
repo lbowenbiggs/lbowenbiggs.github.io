@@ -25,7 +25,7 @@ I am also an amateur artist, and occasionally create maps for my worldbuilding p
 
 Except where otherwise noted, all maps, world building material, and blog posts are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
-My projects have various licenses. See the individual project page for information.
+My projects have various licenses. Projects with open licenses are noted.
 
 # Credits
 This site uses Jekyll (Find out more at [jekyllrb.com](http://jekyllrb.com/)) and is hosted with [Github Pages](https://pages.github.com/).
