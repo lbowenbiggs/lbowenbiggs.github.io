@@ -8,26 +8,6 @@ layout: default
     <!-- This is where updates or global site notices should go. Edit them in index.md -->
     {{ content }}
 
-    <div class="section projects-summary">
-      <h1 class="page-heading section-summary-heading">Project Showcase</h1>
-
-      <ul class="post-list">
-        {% for post in site.categories.showcase %}
-          <li>
-            <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-            <div class="entry">
-              {{ post.excerpt }}
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <p><a class="page-link" href="projects">See more Projects</a></p>
-
-    </div>
-
     <div class="section blog-summary">
       <h1 class="page-heading section-summary-heading">Recent Posts</h1>
 
@@ -68,9 +48,29 @@ layout: default
           </div>
         {% endfor %}
       </ul>
+
+      <p><a class="page-link" href="maps">See more Maps</a></p>
     </div>
 
-    <p><a class="page-link" href="maps">See more Maps</a></p>
+    <div class="section projects-summary">
+      <h1 class="page-heading section-summary-heading">Project Showcase</h1>
+
+      <ul class="post-list">
+        {% for post in site.categories.showcase %}
+          <li>
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+            <div class="entry">
+              {{ post.excerpt }}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p><a class="page-link" href="projects">See more Projects</a></p>
+
+    </div>
 
   </div>
 
