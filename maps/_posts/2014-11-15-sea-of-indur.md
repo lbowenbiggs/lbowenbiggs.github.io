@@ -5,7 +5,6 @@ categories: single-map
 tags: region
 thumbnail: sea-of-indur.png
 description: What is this a map of? This is the sort-form description.
-alt-text: Any alt-text
 full-resolution: sea-of-indur-full.png
 published: false
 ---

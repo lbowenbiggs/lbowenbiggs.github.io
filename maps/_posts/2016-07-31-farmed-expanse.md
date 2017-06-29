@@ -5,7 +5,6 @@ categories: single-map
 tags: region
 thumbnail: features-dense.png
 description: I learned a few new styles to detail the landmasses!
-alt-text: Any alt-text
 full-resolution: features-dense-full.png
 published: true
 ---
