@@ -5,7 +5,6 @@ categories: single-map
 tags: city
 thumbnail: londonish.png
 description: A very dense city centered around the confluence of two rivers, inspired by London, England.
-alt-text: Any alt-text
 full-resolution: londonish-full.png
 published: true
 ---
@@ -30,4 +29,4 @@ I'm still not sure how the edges of cities blend into their surroundings, and I'
 
 This is among my current favorite maps that I have made.
 I know the effort I put into all the miniscule lines is a part of my love for it.
-I'm also glad to be back into drawing, since I've had a fairly long hiatus. 
+I'm also glad to be back into drawing, since I've had a fairly long hiatus.

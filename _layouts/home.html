@@ -42,7 +42,7 @@ layout: default
             </h2>
             <a class="post-link" href="{{ post.url | relative_url }}">
               <img class="map-thumb"
-                   alt={{post.alt-text}}
+                   alt={{post.description}}
                    src="{{site.url}}/assets/maps/thumbs/{{post.thumbnail}}">
             </a>
           </div>
@@ -74,5 +74,7 @@ layout: default
 
   </div>
 
+<!--
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+-->
 </div>

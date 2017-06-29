@@ -5,7 +5,6 @@ categories: single-map
 tags: city
 thumbnail: nogrid-attempt.png
 description: After friends told me all my city maps were too closely aligned to a grid, I tried to make one that wasn't.
-alt-text: A map of a city with a wobbly river splitting it, and a nonsensical highway crossing through.
 full-resolution: nogrid-attempt-full.png
 published: true
 ---

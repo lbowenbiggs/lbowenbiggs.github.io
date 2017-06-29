@@ -5,7 +5,6 @@ categories: single-map
 tags: city
 thumbnail: city-closeup.png
 description: One of the first city maps I ever drew, this map is heavily influenced by Portland, OR.
-alt-text: Any alt-text
 full-resolution: city-closeup-full.png
 published: true
 ---

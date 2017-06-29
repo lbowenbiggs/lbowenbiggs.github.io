@@ -5,7 +5,6 @@ categories: single-map
 tags: world
 thumbnail: world-border.png
 description: A world map with stylized borders and an unclear projection.
-alt-text: Any alt-text
 full-resolution: world-border-full.png
 published: true
 ---
