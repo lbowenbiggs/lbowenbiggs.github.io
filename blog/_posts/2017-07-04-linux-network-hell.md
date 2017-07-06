@@ -29,7 +29,7 @@ Debugging this was about 65% frustrating and 35% fun, and I picked up a few Linu
 The first hint I got was people on Ubuntu forums who were also being constantly disconnected.
 The proposed solution is to disable power management.
 What is happening is the network gets turned off when its on battery and not in use.
-This fits with the disconnects I've gotten, which have all been on battery while idling.
+This fits with the disconnects I've gotten, which have all been on battery while the network was idle.
 
 To check the power management setting, run iwconfig.
 
@@ -154,7 +154,7 @@ lo        Interface doesn't support scanning.
 enp0s25   Interface doesn't support scanning.
 ```
 
-Time to consider it a Hardware Problem.
+Time to consider if it is a Hardware Problem.
 
 # Whitelisted Wireless Cards
 
@@ -171,9 +171,9 @@ This check caused POST to fail, so I was unable to simply swap out wireless adap
 I searched for reasons the Atheros chip wouldn't work, and was hit with *many* similar problems from other people with Lenovo computers.
 It turns out that Lenovo (along with HP and some other manufacturers) only allow certain hardware to run with their machines.
 
-I couldn't use my old laptop's wireless card, but the disconnc loop was still going.
+I couldn't use my old laptop's wireless card, but the disconnct loop was still going.
 I started shopping around for a new wireless card, but found that other people had issues with seemingly every wireless card.
-I couldn't find information about my model on Lenovo's website, but [ThinkWiki does](https://www.thinkwiki.org/wiki/Category:T410).
+I couldn't find information about my model on Lenovo's website, but [ThinkWiki has it](https://www.thinkwiki.org/wiki/Category:T410).
 Since shipping with an Intel Centrino is an option, I am betting those devices will be supported.
 
 Lenovo uses a Field Replacement Unit (FRU) number to identify compatible parts.
@@ -182,7 +182,7 @@ But since I am upgrading an not replacing, I'm not sure if that rule applies.
 All wireless cards I could find that match my FRU were exact copies of the ones I have -- not helpful at all.
 
 I decided to buy a Centrino, even though the FRU is different.
-I'm not sure if it'll work, but there's a whole world of BIOS and chip modding that I could explore....
+I'm not sure if it'll work, but there's still the whole world of BIOS and chip modding that I could explore....
 
 # Power Management, Redux
 
@@ -192,7 +192,7 @@ I still have a perfectly reliable wired card, and I learned new things about Lin
 I decided to write it all down so I would remember.
 
 I'd already closed all the links, so I had to find the sources I used again.
-I ran across a simple line in an [ArchWiki page about a different Thinkpad](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_Edge_13):
+I ran across a line in an [ArchWiki page about a different Thinkpad](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_Edge_13):
 
 > If you are using the rtl8192ce module, you may experience some intermittent deauthentication issues with newer kernels (tested on 3.4.4-2-ARCH). The reason is because **the BIOS is turning off the wireless card when the BIOS deems it to be "inactive."**
 
@@ -215,7 +215,7 @@ But be careful when shopping, as some manufacturers only allow whitelisted chips
 ## References
 
 It's unlikely my story-based approach to debugging helped solve your issue.
-So here's a list of the articles, datasheets, and wiki pages I found most helpful:
+So here's a list of the articles, reference sheets, and wiki pages I found most helpful:
 
 * [Ubuntu Wireless Troubleshooting Guide](https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide): This guide helps troubleshoot network problems on Ubuntu, ranging from hardware and driver problems to ip configuration. Nothing here is device specific, and is a good starting place for triaging the problem.
 * [Guide to Kernel Modules, at the Arch Wiki](https://wiki.archlinux.org/index.php/Kernel_modules): Gives an overview of how to work with kernel modules (drivers) to ensure they are running correctly.
