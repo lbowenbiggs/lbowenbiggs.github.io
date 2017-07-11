@@ -108,7 +108,7 @@ Specifically, I wanted to know if my wireless adapter driver was running.
 Now, I wanted to list information on a specific module, so I ran `modinfo`:
 
 ```bash
-$ modinfo rtl8192ce
+$ modinfo rtl8192se
 [...]
 parm:           swenc:Set to 1 for software crypto (default 0)
  (bool)
@@ -124,7 +124,7 @@ parm:           debug:Set debug level (0-5) (default 0) (int)
 The interesting part of this command is the `parm` tags.
 The module explains what the `ips` and `fwlps` settings are: different levels of power management.
 Now that I know what these settings are, I'm not afraid to change them.
-First, remove the module with `modprobe -r rtl8192ce`.
+First, remove the module with `modprobe -r rtl8192se`.
 Then start the module with `ips` and `fwlps` disabled (set to 0) and check the results:
 
 ```bash
