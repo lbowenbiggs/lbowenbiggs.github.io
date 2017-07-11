@@ -3,9 +3,8 @@ layout: map
 title:  "Reassembled"
 categories: single-map
 tags: region
-thumbnail: reassembled.png
+file-name: reassembled
 description: What is this a map of? This is the sort-form description.
-full-resolution: reassembled-full.png
 published: false
 ---
 

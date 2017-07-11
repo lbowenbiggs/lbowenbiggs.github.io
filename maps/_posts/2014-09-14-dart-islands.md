@@ -3,9 +3,8 @@ layout: map
 title:  "Dart Islands"
 categories: single-map
 tags: region
-thumbnail: dart-islands.png
+file-name: dart-islands
 description: What is this a map of? This is the sort-form description.
-full-resolution: dart-islands-full.png
 published: false
 ---
 

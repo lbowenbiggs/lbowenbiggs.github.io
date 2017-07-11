@@ -3,9 +3,8 @@ layout: map
 title:  "Sea of Indur"
 categories: single-map
 tags: region
-thumbnail: sea-of-indur.png
+file-name: sea-of-indur
 description: What is this a map of? This is the sort-form description.
-full-resolution: sea-of-indur-full.png
 published: false
 ---
 

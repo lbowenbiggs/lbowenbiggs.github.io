@@ -3,9 +3,8 @@ layout: map
 title:  "City Closeup"
 categories: single-map
 tags: city
-thumbnail: city-closeup.png
+file-name: city-closeup
 description: One of the first city maps I ever drew, this map is heavily influenced by Portland, OR.
-full-resolution: city-closeup-full.png
 published: true
 ---
 

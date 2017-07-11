@@ -3,9 +3,8 @@ layout: map
 title:  "Farmed Expanse"
 categories: single-map
 tags: region
-thumbnail: features-dense.png
+file-name: features-dense
 description: I learned a few new styles to detail the landmasses!
-full-resolution: features-dense-full.png
 published: true
 ---
 

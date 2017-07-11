@@ -3,9 +3,8 @@ layout: map
 title:  "Londonish"
 categories: single-map
 tags: city
-thumbnail: londonish.png
+file-name: londonish
 description: A very dense city centered around the confluence of two rivers, inspired by London, England.
-full-resolution: londonish-full.png
 published: true
 ---
 

@@ -3,9 +3,8 @@ layout: map
 title:  "Two Continents"
 categories: single-map
 tags: region
-thumbnail: two-continents.png
+file-name: two-continents
 description: What is this a map of? This is the sort-form description.
-full-resolution: two-continents-full.png
 published: false
 ---
 

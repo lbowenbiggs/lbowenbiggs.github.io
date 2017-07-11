@@ -3,9 +3,8 @@ layout: map
 title:  "Walled Buildings"
 categories: single-map
 tags: city
-thumbnail: walled-buildings.png
+file-name: walled-buildings
 description: A walled city next to a river, with buildings shown explicitly and unpaved roads implied with negative space.
-full-resolution: walled-buildings-full.png
 published: true
 ---
 

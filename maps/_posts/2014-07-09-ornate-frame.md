@@ -3,9 +3,8 @@ layout: map
 title:  "Ornate Frame"
 categories: single-map
 tags: region
-thumbnail: ornate-frame.png
+file-name: ornate-frame
 description: What is this a map of? This is the sort-form description.
-full-resolution: ornate-frame-full.png
 published: false
 ---
 

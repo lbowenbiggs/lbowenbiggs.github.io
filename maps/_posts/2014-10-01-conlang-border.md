@@ -3,9 +3,8 @@ layout: map
 title:  "Conlang Border"
 categories: single-map
 tags: region
-thumbnail: conlang-border.png
+file-name: conlang-border
 description: What is this a map of? This is the sort-form description.
-full-resolution: conlang-border-full.png
 published: false
 ---
 

@@ -3,9 +3,8 @@ layout: map
 title:  "World Border"
 categories: single-map
 tags: world
-thumbnail: world-border.png
+file-name: world-border
 description: A world map with stylized borders and an unclear projection.
-full-resolution: world-border-full.png
 published: true
 ---
 

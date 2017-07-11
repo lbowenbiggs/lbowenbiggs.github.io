@@ -3,9 +3,8 @@ layout: map
 title:  "No-Grid Attempt"
 categories: single-map
 tags: city
-thumbnail: nogrid-attempt.png
+file-name: nogrid-attempt
 description: After friends told me all my city maps were too closely aligned to a grid, I tried to make one that wasn't.
-full-resolution: nogrid-attempt-full.png
 published: true
 ---
 
