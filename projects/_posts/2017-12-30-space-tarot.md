@@ -5,10 +5,9 @@ date:   2017-12-30
 categories: projects
 ---
 
-[Project Website](https://lbowenbiggs.github.io/space_tarot)
-
 I am working on an edition of Tarot Cards with an outer space theme.
 Cards are based on humanities quest to understand and reach space.
+See all cards at its [website](https://lbowenbiggs.github.io/space_tarot)
 
 # Selected Cards
 ## The Fool: Humanity
