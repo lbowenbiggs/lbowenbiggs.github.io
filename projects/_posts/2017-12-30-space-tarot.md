@@ -2,7 +2,7 @@
 layout: post
 title:  "Space Tarot"
 date:   2017-12-30
-categories: projects
+categories: projects showcase
 ---
 
 I am working on an edition of Tarot Cards with an outer space theme.
