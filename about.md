@@ -7,7 +7,7 @@ permalink: /about/
 # Leon Bowen-Biggs
 ![Picture of Leon]({{ site.url }}/assets/about_photo.jpg)
 
-I am a software developer based out of Portland. I am also a part-time student at Worcester Polytechnic Institute in Massachusetts. My interests include data, gender theory, worldbuliding, and robotics.
+I am a software developer based out of Portland. My interests include data, gender theory, worldbuliding, and robotics.
 
 I got into technology through FIRST Robotics in high school.  I have taught classes in robotics programming to hundreds of Oregonians since 2010. Some of the robots I have worked with are:
 
